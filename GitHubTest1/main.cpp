@@ -7,13 +7,15 @@
 //
 
 #include <iostream>
+#include "Person.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     
-    int age = 45;
+    int age = 54;
+    Person Kevin(age);
     
-    std::cout << "Hello, World!\n";
+    std::cout << "Hello, World! Age:" << Kevin.getAge() << "\n";
     
     return 0;
 }
