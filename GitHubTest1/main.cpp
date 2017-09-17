@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
     int age = 54;
     Person Kevin(age);
     
-    std::cout << "Hello, World! Age:" << Kevin.getAge() << "\n";
+    std::cout << "Hello, World!!!! Age:" << Kevin.getAge() << "\n";
     
     return 0;
 }
